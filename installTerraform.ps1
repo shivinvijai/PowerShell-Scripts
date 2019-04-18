@@ -1,3 +1,4 @@
+# How to rn -  .\installTerraform.ps1
 $tflatestversion = "0.11.13"
 $status = terraform -v
 
