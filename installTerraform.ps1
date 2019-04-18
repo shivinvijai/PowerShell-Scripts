@@ -2,8 +2,6 @@
 $tflatestversion = "0.11.13"
 $status = terraform -v
 
-#Write-Host $output
-
 if ($? -eq "True") {
 		write-host "Terraform Already Installed, version is :" $status
 	}
